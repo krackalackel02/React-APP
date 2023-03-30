@@ -5,13 +5,15 @@ import Navbar from './Navbar';
 import './index.css';
 
 ReactDOM.render(
+  <Navbar />,
+  document.getElementById('navbar')
+);
+
+ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
 
-ReactDOM.render(
-  <Navbar />,
-  document.getElementById('navbar')
-);
+
